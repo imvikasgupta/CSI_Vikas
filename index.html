@@ -3,10 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel Agency</title>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <div class="nav">
+        <div class="brand">
+          <div class="logo">W</div>
+          <div>
+            <div style="font-weight:700;color:#eaf3ff;">Wanderly Travels</div>
+            <div style="font-size:12px;color:var(--muted)">Explore. Breathe. Return.</div>
+          </div>
+        </div>
+        <nav aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#packages">Packages</a>
+          <a href="#blogs">Blogs</a>
+        </nav>
+        <a class="cta" href="#contact">Book a Trip</a>
+      </div>
+    </header>
 
-    
+    <main>
+      <section id="home">
+        <div class="hero">
+          <div class="hero-left">
+            <h1>Find your next adventure</h1>
+            <p>Handpicked tour packages, local guides, and flexible itineraries — built for curious travellers.</p>
+            <div class="search">
+              <input placeholder="Search destination or package">
+              <button>Search</button>
+            </div>
+            <p style="margin-top:16px;color:var(--muted);font-size:14px;line-height:1.6">Discover exotic locations, hidden gems, and local experiences curated for all types of travelers. From beach escapes to mountain treks, we have something for everyone.</p>
+          </div>
+          <div class="carousel-container">
+            <div class="carousel-track">
+              <div class="carousel-slide" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=60')">
+                <div class="slide-caption">Maldives Getaway — 5 nights<br>From <span class="price">$999</span></div>
+              </div>
+              <div class="carousel-slide" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=60')">
+                <div class="slide-caption">Himalayan Trek — 8 days<br>From <span class="price">$799</span></div>
+              </div>
+              <div class="carousel-slide" style="background-image:url('https://www.google.com/imgres?q=maldives&imgurl=https%3A%2F%2Fwww.travelandleisure.com%2Fthmb%2FN_r_xMvHfYjCHgZE-9bAWNiVAwU%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FTAL-conrad-maldives-rangali-island-MALDIVESHOTELS1024-6dfdeac00fec4f69893e7576b5896da9.jpg&imgrefurl=https%3A%2F%2Fwww.travelandleisure.com%2Fhotels-resorts%2Fall-inclusive-resorts%2Fbest-maldives-all-inclusive-resorts&docid=-eGLGMMSfjXO3M&tbnid=W62oij8lnf9Q_M&vet=12ahUKEwjExe7tndGPAxUzSmwGHVb7AEcQM3oECBsQAA..i&w=1500&h=1001&hcb=2&ved=2ahUKEwjExe7tndGPAxUzSmwGHVb7AEcQM3oECBsQAA')">
+                <div class="slide-caption">European Rail Pass — 12 days<br>From <span class="price">$1399</span></div>
+              </div>
+              <div class="carousel-slide" style="background-image:url('https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1600&q=60')">
+                <div class="slide-caption">Safari Adventure — 7 days<br>From <span class="price">$1299</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="destinations">
+        <h2>Popular destinations</h2>
+        <p style="color:var(--muted);margin-bottom:16px;">Explore cards for quick details and pricing.</p>
+        <div class="grid">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=60" alt="Maldives">
+            <h3>Maldives</h3>
+            <p style="color:var(--muted);font-size:13px">White sand beaches, snorkeling and luxury stays.</p>
+            <div class="price">₹89,999</div>
+          </div>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=60" alt="Himalayas">
+            <h3>Himalayan Trek</h3>
+            <p style="color:var(--muted);font-size:13px">Trek with local porters & mountain village homestays.</p>
+            <div class="price">₹49,999</div>
+          </div>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=60" alt="Paris">
+            <h3>Paris</h3>
+            <p style="color:var(--muted);font-size:13px">Romantic city tours, museums, and gourmet experiences.</p>
+            <div class="price">₹1,29,999</div>
+          </div>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=60" alt="Safari">
+            <h3>African Safari</h3>
+            <p style="color:var(--muted);font-size:13px">Wildlife tours and luxury lodge stays in Africa.</p>
+            <div class="price">₹1,59,999</div>
+          </div>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=60" alt="Safari">
+            <h3>African Safari</h3>
+            <p style="color:var(--muted);font-size:13px">Wildlife tours and luxury lodge stays in Africa.</p>
+            <div class="price">₹1,59,999</div>
+          </div>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=60" alt="Safari">
+            <h3>African Safari</h3>
+            <p style="color:var(--muted);font-size:13px">Wildlife tours and luxury lodge stays in Africa.</p>
+            <div class="price">₹1,59,999</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages">
+        <h2>Top Packages</h2>
+        <div class="package-list">
+          <div class="package">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60" style="width:140px;height:94px;object-fit:cover;border-radius:8px">
+            <div class="meta">
+              <strong>Himalayan Trek — 8 days</strong>
+              <div class="pill">₹49,999</div>
+              <p style="color:var(--muted);font-size:13px">A classic trek combining village homestays and high alpine views.</p>
+            </div>
+          </div>
+          <div class="package">
+            <img src="https://images.unsplash.com/photo-1444492411076-1adf0a14a6f5?auto=format&fit=crop&w=800&q=60" style="width:140px;height:94px;object-fit:cover;border-radius:8px">
+            <div class="meta">
+              <strong>European Rail — 12 days</strong>
+              <div class="pill">₹1,39,999</div>
+              <p style="color:var(--muted);font-size:13px">City-to-city rail with curated local experiences.</p>
+            </div>
+          </div>
+          <div class="package">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=60" style="width:140px;height:94px;object-fit:cover;border-radius:8px">
+            <div class="meta">
+              <strong>Safari Adventure — 7 days</strong>
+              <div class="pill">₹1,29,999</div>
+              <p style="color:var(--muted);font-size:13px">Luxury African safari with wildlife guides and private lodges.</p>
+            </div>
+          </div>
+          <div class="package">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=60" style="width:140px;height:94px;object-fit:cover;border-radius:8px">
+            <div class="meta">
+              <strong>Safari Adventure — 7 days</strong>
+              <div class="pill">₹1,29,999</div>
+              <p style="color:var(--muted);font-size:13px">Luxury African safari with wildlife guides and private lodges.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blogs">
+        <h2>Travel Stories & Tips</h2>
+        <div class="blogs">
+          <div class="blog-card">
+            <h3>How to pack light for 10 days</h3>
+            <p style="font-size:13px;color:#334155">Minimalist packing tips, clothing choices and a smart tech checklist.</p>
+          </div>
+          <div class="blog-card">
+            <h3>Eating local — a guide to street food</h3>
+            <p style="font-size:13px;color:#334155">How to enjoy local food safely and where to look for authentic bites.</p>
+          </div>
+          <div class="blog-card">
+            <h3>Top 5 hidden beach destinations</h3>
+            <p style="font-size:13px;color:#334155">Discover secluded beaches, private coves, and tropical escapes away from crowds.</p>
+          </div>
+          <div class="blog-card">
+            <h3>Best travel apps for solo travelers</h3>
+            <p style="font-size:13px;color:#334155">Apps for navigation, local guides, budgeting and safety tips.</p>
+          </div>
+            <div class="blog-card">
+            <h3>Best travel apps for solo travelers</h3>
+            <p style="font-size:13px;color:#334155">Apps for navigation, local guides, budgeting and safety tips.</p>
+          </div>
+            <div class="blog-card">
+            <h3>Best travel apps for solo travelers</h3>
+            <p style="font-size:13px;color:#334155">Apps for navigation, local guides, budgeting and safety tips.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>© 2025 Wanderly Travels — Demo site</footer>
+  </div>
 </body>
 </html>
